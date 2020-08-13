@@ -62,4 +62,4 @@ entry
 
 # Reference
 + https://www.serendipity.page/b/2020/07/hatena-migration1/
-+ https://www.serendipity.page/b/2020/07/hatena-migration2/ （予定）
++ https://www.serendipity.page/b/2020/08/hatena-migration2/ 

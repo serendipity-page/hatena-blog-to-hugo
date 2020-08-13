@@ -1,16 +1,20 @@
 # hatena-blog-to-hugo
 はてなブログのMTファイルを静的Web生成ツールHugo用データに変換
 
-# Motivation: はてなブログからHugoに引っ越すのに際し、はてなブログ時代のデータをHugoの形式に移行する必要が出てきた。はてなブログのエクスポート機能はMTフォーマットにしか対応しておらず自作する必要あり
+# Motivation:
+はてなブログからHugoに引っ越すのに際し、はてなブログ時代のデータをHugoの形式に移行する必要が出てきた。はてなブログのエクスポート機能はMTフォーマットにしか対応しておらず自作する必要あり
 
-# Target Hugo Theme: [tranquilpeak](https://github.com/kakawait/hugo-tranquilpeak-theme)
+# Target Hugo Theme:
+[tranquilpeak](https://github.com/kakawait/hugo-tranquilpeak-theme)
 
-# Usage: ruby hb2h.rb example.hatenablog.com.export.txt
+# Usage:
+ruby hb2h.rb example.hatenablog.com.export.txt
 
 # Process: 
 
 example.hatenablog.com.export.txtを読み込んで
-'''
+
+```
 AUTHOR: insaneway
 TITLE: aaaaaaaa test
 BASENAME: aaa
@@ -39,15 +43,18 @@ CONVERT BREAKS: 0
 ...
 ...
 ...
-'''
+```
+
 entryディレクトリ内に
 
+```
 entry
 ├── aaa.html
 ├─── bbb.html
 ...
 ...
 ...
+```
 
 を作る。
 
